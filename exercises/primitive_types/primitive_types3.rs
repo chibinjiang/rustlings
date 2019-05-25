@@ -3,8 +3,13 @@
 // Scroll down for hints!
 
 fn main() {
-    let a = ???
-
+    let a = ["jiangzhibin"; 10];
+    // println!("{}", &a.to_string());
+    // for c in a.chars(){
+    //     println!("{}", c);
+    // }
+    println!("{:?}", a);
+    println!("{}", a.len());
     if a.len() >= 100 {
         println!("Wow, that's a big array!");
     } else {
